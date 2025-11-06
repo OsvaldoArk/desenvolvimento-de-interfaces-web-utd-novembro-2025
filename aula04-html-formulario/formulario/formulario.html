@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descrição do Projeto</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nomeId">nome:</label>
+            <input type="text" name="nome" id="nomeId">
+            <br>
+            <br>
+            <label for="enderecoId">endereço:</label>
+            <input type="text" name="endereco" id="enderecoId">
+            <br>
+            <br>
+             <label for="emaiId">e-mail:</label>
+            <input type="email" name="email" id="emailId">
+        </fieldset>
+        <fieldset>
+            <legend>Projeto</legend>
+            <label for="">nome do projeto: </label>
+            <input type="text" name="projeto" id="projetoId">
+            <label for="orcamentoId">orçamento:</label>
+            <input type="number" name="orcamento" id="orcamentoId" min="0">
+        </fieldset>
+        <fieldset>
+            <legend>Frontend</legend>
+            <input type="radio" name="front" id="react">
+            <label for="react">REACT</label>
+            <input type="radio" name="front" id="vue" checked>
+            <label for="vue">VUE</label>
+            <input type="radio" name="front" id="angular">
+            <label for="angular">ANGULAR</label>
+        </fieldset>
+        <fieldset>
+            <legend>Backend</legend>
+        </fieldset>
+        <fieldset>
+            <legend>Funcionalidades</legend>
+            <input type="checkbox" name="" id="login">
+            <label for="login">login</label>
+            <br>
+            <input type="checkbox" name="" id="banco">
+            <label for="banco">banco de dados</label>
+            <br>
+            <input type="checkbox" name="" id="painel">
+            <label for="painel">painéis de informação</label>
+            <br>
+            <input type="checkbox" name="" id="checkbox">
+            <label for="checkbox">login do google</label>
+            <br>
+            <input type="checkbox" name="" id="pagamento">
+            <label for="pagamento">integração com pagamento online</label>
+        </fieldset>
+        <fieldset>
+            <legend>Em caso de banco de dados</legend>
+            <select name="" id="">
+                <option value="" selected disabled>Selecione o seu banco</option>
+                <optgroup label="não relacional">
+                    <option value="mongo">MongoDB</option>
+                    <option value="firebase">Firebird</option>
+                    <option value="supabase">Supabase</option>
+                </optgroup>
+                <optgroup label="relacional">
+                    <option value="mysql">MySQL</option>
+                    <option value="mariadb">MariaDB</option>
+                    <option value="oracle">Oracle</option>
+                    <option value="sqlserver">SQLServer</option>
+                    <option value="postgresql">PostgreSQL</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Descrição do projeto</legend>
+            <p>Faça uma breve descrição do seu projeto</p>
+            <textarea name="descricaoprojeto" id="" rows="20" cols="120">
+
+            </textarea>
+        </fieldset>
+        <button type="submit">enviar</button>
+        <button type="reset">apagar</button>
+    </form>
+    <p><a href="../curriculo/">voltar ao currículo</a></p>
+</body>
+</html>
