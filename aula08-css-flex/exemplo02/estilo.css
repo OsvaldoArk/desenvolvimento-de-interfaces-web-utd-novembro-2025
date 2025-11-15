@@ -14,6 +14,13 @@ main{
     border-radius: 20px;
 }
 
+.painel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 aside{
     width: 45%;
     height: 100%;
@@ -33,6 +40,12 @@ aside > h1, p{
     margin: 5px;
 }
 
+aside > p{
+    font-size: 0.7em;
+    font-weight: bold;
+    line-height: 25px;
+}
+
 aside > button{
     width:130px;
     height: 30px;
@@ -43,5 +56,65 @@ aside > button{
     background-color: rgba(0,0,0,0);
 }
 
+.formulario{
+    width: 65%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.formulario > h2 {
+    color:#58af9c;
+}
 
+.formulario > p{
+    color:rgba(0,0,0,.4);
+    font-size: 0.7em;
+}
+
+.redes{
+    width: 120px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao-rede{
+    width: 30px;
+    height: 30px;
+    color:rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,0);;
+    border: 1px solid rgba(0,0,0,.4);
+    border-radius: 50%;
+}
+
+form{
+    width:280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form > input {
+    width:90%;
+    box-sizing: border-box;
+    padding: 5px;
+    height:30px;
+    background-color: #ecf0f1;
+    border: 0px solid black;
+}
+
+form > button{
+    margin-top: 20px;
+    width:130px;
+    height: 30px;
+    margin-top: 15px;
+    color: aliceblue;
+    background-color: #58af9c;
+    border-radius: 15px;
+    border: 1px solid #58af9c;
+}
