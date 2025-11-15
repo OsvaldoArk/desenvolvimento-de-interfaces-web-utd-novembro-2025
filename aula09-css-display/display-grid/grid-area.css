@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 10px;
+    display: grid;
+    gap:10px;
+    grid-template-rows: 15vh 25vh 45vh 15vh;
+    grid-template-columns: 35vw 35vw 25vw;
+    grid-template-areas: "navegacao navegacao navegacao"
+                         "cabecalho cabecalho lateral"
+                         "esquerda direita lateral"
+                         "rodape rodape rodape";
+    background-color: black;
+}
+
+nav{
+    grid-area: navegacao;
+    background-color: purple;
+}
+
+aside{
+    grid-area: lateral;
+    background-color: coral;
+}
+
+header{
+    grid-area: cabecalho;
+    background-color: orangered;
+}
+
+.esquerda{
+    grid-area: esquerda;
+    background-color: slateblue;
+}
+
+.direita{
+    grid-area: direita;
+    background-color: crimson;
+}
+
+footer{
+    grid-area: rodape;
+    background-color: violet;
+}
+
+/* breakpoint para smartphones pequenos */
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 0px;
+        gap:0px;
+        grid-template-rows: 15vh 15vh 25vh 45vh 45vh 15vh;
+        grid-template-columns: 100vw;
+        grid-template-areas:"lateral" 
+                         "navegacao"
+                         "cabecalho"
+                         "esquerda"
+                         "direita"
+                         "rodape";
+        background-color: aliceblue;
+    }
+}
+
+/*breakpoint para smartphones maiores e tablets*/
+@media screen and (min-width:481) and (max-width: 768px) {
+    .container{
+        padding: 0px;
+        gap:0px;
+        grid-template-rows: 15vh 15vh 25vh 45vh 45vh 15vh;
+        grid-template-columns: 100vw;
+        grid-template-areas:"lateral" 
+                         "navegacao"
+                         "cabecalho"
+                         "esquerda"
+                         "direita"
+                         "rodape";
+        background-color: aliceblue;
+    }
+}
+
+/*breakpoint para notebooks e grandes tablets*/
+@media screen and (min-width: 769) and (max-width: 1279px) {
+    .container{
+        padding: 0px;
+        gap:0px;
+        grid-template-rows: 15vh 15vh 25vh 45vh 45vh 15vh;
+        grid-template-columns: 100vw;
+        grid-template-areas:"lateral" 
+                         "navegacao"
+                         "cabecalho"
+                         "esquerda"
+                         "direita"
+                         "rodape";
+        background-color: aliceblue;
+    }
+}
+
+/*monitores e notebooks grandes*/
+@media screen and (min-width:1280) {
+    .container{
+        padding: 0px;
+        gap:0px;
+        grid-template-rows: 15vh 15vh 25vh 45vh 45vh 15vh;
+        grid-template-columns: 100vw;
+        grid-template-areas:"lateral" 
+                         "navegacao"
+                         "cabecalho"
+                         "esquerda"
+                         "direita"
+                         "rodape";
+        background-color: aliceblue;
+    }
+}
