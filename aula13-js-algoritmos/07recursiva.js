@@ -1,0 +1,5 @@
+function soma(numero){
+    return numero<=0 ? 0 : numero + soma(numero-1);
+}
+// 10 + (9 + (8 + (7 + (6 + (5 + (4 + (3 + (2 + (1 + (0))))))))))
+console.log(soma(10));
