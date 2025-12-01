@@ -1,0 +1,188 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+
+}
+
+
+.caixa{
+    display: flex;
+    background-color: white;
+    border-radius: 0px 0px 30px 30px;
+    flex-direction: column;
+    width: 900px;
+    align-content: center;
+    padding: 50px;
+    font-size: x-large;
+}
+
+.parte1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.subtitulo{
+    color: black;
+}
+
+.conteudo{
+    font-weight: lighter;
+}
+
+
+.promo{
+    display: flex;
+    box-sizing: border-box;
+    background-image: url("mua-laptop-acer-core-i3.png");
+    background-size: cover;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    border-radius: 30px 30px 0px 0px;
+    padding-left: 780px;
+    padding-top: 20px;
+
+}
+
+.venda{
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    width: 200px;
+}
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    width: 300px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    width: 300px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preço_original{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    width: 200px;
+    height: 20px;
+    color: grey;
+}
+
+.preço_atual{
+    display: flex;
+    align-items: self-end;
+    width: 200px;
+    height: 20px;
+    padding-top: 50px;
+    padding-right: 550px;
+}
+
+
+.c_mais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    background-color: black;
+    width: 1000px;
+    border-radius: 30px;
+    height: 80px;
+}
+
+.compra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 40px;
+    
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 900px;
+    height: 2px;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+
+.socorro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    flex-direction: row;
+    font-size: 30px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 383px;
+    color: green;
+
+}
