@@ -1,0 +1,84 @@
+body{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;    
+    background-color: black;
+}
+.Container{
+    width: 80vw;
+    height: 90vh;
+    display: flex; 
+    text-align-last: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    flex-direction: column;    
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(46, 63, 63);
+}
+.carros{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    text-align-last: center;   
+    justify-content: space-around;
+}
+.carro1{
+    width: 300px;
+    height: 550px;
+    color: black;    
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+.carro1>img{
+    width: 100%;
+    height: 40%;
+
+}
+.carro1>a>button{
+    align-items: center;
+    width: 40%;
+    height: 6%;
+    color: aliceblue;
+    background-color: red;
+    
+}
+.carro2{
+    width: 300px;
+    height: 550px; 
+    color: black;    
+    border: 1px solid black;
+    background-color: aliceblue;    
+}
+.carro2>img{
+    width: 100%;
+    height: 40%;
+
+}
+.carro2>a>button{
+    align-items: center;
+    width: 40%;
+    height: 6%;
+    color: aliceblue;
+    background-color: red;
+}
+.carro3{
+    width: 300px;
+    height: 550px;
+    color: black; 
+    border: 1px solid black; 
+    background-color: aliceblue; 
+}
+.carro3>img{
+    width: 100%;
+    height: 40%;
+
+}
+.carro3>a>button{
+    align-items: center;
+    width: 40%;
+    height: 6%;
+    color: aliceblue;
+    background-color: red;
+}
