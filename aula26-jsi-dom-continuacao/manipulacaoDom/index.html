@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGO</title>
+    <style>
+        section#personagem{
+            width: 50vw;
+            display: flex;
+            margin-top: 30px;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="personagem">
+            <div>
+                <button>anterior</button>
+                <img id="imagem" width="100" height="150" src="./imagens/generico.jpg" alt="imagem do(a) heroi(na)">
+                <button id="proximo">próximo</button>
+            </div>
+            <div class="status">
+                <table id="quadro">
+                    <tbody>
+                        <tr>
+                            <td>Força</td>
+                            <td><button id="forcaM">-</button></td>
+                            <td id="forca">0</td>
+                            <td><button id="forcaS">+</button></td>
+                        </tr>
+                        <tr>
+                            <td>Destreza</td>
+                            <td><button id="destrezaM">-</button></td>
+                            <td id="destreza">0</td>
+                            <td><button id="destrezaS">+</button></td>
+                        </tr>
+                        <tr>
+                            <td>Constituição</td>
+                            <td><button id="constituicaoM">-</button></td>
+                            <td>0</td>
+                            <td><button id="constituicaoS">+</button></td>
+                        </tr>
+                        <tr>
+                            <td>Inteligência</td>
+                            <td><button id="inteligenciaM">-</button></td>
+                            <td>0</td>
+                            <td><button id="inteligenciaS">+</button></td>
+                        </tr>
+                        <tr>
+                            <td>Sabedoria</td>
+                            <td><button id="sabedoriaM">-</button></td>
+                            <td>0</td>
+                            <td><button id="sabedoriaS">+</button></td>
+                        </tr>
+                        <tr>
+                            <td>Carisma</td>
+                            <td><button id="carismaM">-</button></td>
+                            <td>0</td>
+                            <td><button id="carismaS">+</button></td>
+                        </tr>
+                    </tbody>
+                </table>                
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
