@@ -17,6 +17,6 @@ function numeroAleatorioRecursiva(numero,resultado){
     return numero<=0? resultado : numeroAleatorioRecursiva(numero-1,resultado+' '+n);
 }
 
-let r = numeroAleatorioRecursiva(10,"");
+let r = numeroAleatorioRecursiva(6,",");
 
 console.log(r);
