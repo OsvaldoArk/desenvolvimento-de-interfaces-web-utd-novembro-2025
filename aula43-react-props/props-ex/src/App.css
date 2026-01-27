@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    gap:10px;
+    grid-template-rows: 10vh 87vh;
+    grid-template-columns: 20vw 77vw;
+    grid-template-areas: "nav nav"
+                         "aside main";
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+    background-color: blue;
+}
+
+aside{
+    grid-area: aside;
+}
