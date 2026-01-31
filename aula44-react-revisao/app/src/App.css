@@ -1,0 +1,16 @@
+nav > ul{
+    width:100vw;
+    height:auto;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav > ul > li {
+    margin-right: 50px;
+}
+
+nav > ul > li > a{
+    color:black;
+    text-decoration: none;
+}
