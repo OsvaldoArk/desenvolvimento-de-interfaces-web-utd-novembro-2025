@@ -1,0 +1,30 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    height:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container > .navegacao{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navegacao > ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navegacao > ul > li > a{
+    font-size: 0.8rem;
+    color:black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+h4{
+    margin: auto auto;
+}

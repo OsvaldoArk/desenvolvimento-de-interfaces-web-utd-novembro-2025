@@ -1,0 +1,12 @@
+
+
+function UsuariosForm(){
+
+    return(
+        <>
+            <h1>Formulário de Usuário</h1>
+        </>
+    );
+}
+
+export default UsuariosForm;

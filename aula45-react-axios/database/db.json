@@ -1,0 +1,16 @@
+{
+  "alunos": [
+    {
+      "id": "1",
+      "nome": "Clarissa Chaves Rodrigues",
+      "data_nascimento": "1997-03-03",
+      "curso": "javascript"
+    },
+    {
+      "id": "030f",
+      "nome": "Jailson Mota",
+      "data_nascimento": "2001-08-30",
+      "email": "jailson@email.com"
+    }
+  ]
+}

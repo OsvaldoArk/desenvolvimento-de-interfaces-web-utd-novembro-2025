@@ -1,0 +1,13 @@
+.lista-item > span{
+    font-size: 3px !important;
+}
+
+.MuiListItemIcon-root{
+    min-width:30px !important;
+    padding-left: 3px;
+}
+
+.MuiListItemText-primary{
+    text-align: left;
+    font-size: 10px;
+}
